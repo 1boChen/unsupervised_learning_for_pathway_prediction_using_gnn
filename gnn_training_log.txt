@@ -1,0 +1,462 @@
+Training: 100%|██████████| 100/100 [01:14<00:00,  1.34it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.72it/s]
+Weighted F1 Score: 0.19803145783500317
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.10      0.10      0.10      1745
+         expression       0.03      0.08      0.04       722
+    phosphorylation       0.06      0.30      0.10      1024
+           compound       0.01      0.02      0.01       694
+         activation       0.35      0.25      0.30      7342
+        no_relation       0.34      0.12      0.18      6143
+binding/association       0.05      0.06      0.06       458
+
+           accuracy                           0.18     18128
+          macro avg       0.13      0.13      0.11     18128
+       weighted avg       0.27      0.18      0.20     18128
+
+Validation Cross-Entropy Loss: 1.9509572519196405
+Epoch 1, Train Loss: 2.2110, Val F1 Score: 0.1980
+Training: 100%|██████████| 100/100 [01:16<00:00,  1.30it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.94it/s]
+Weighted F1 Score: 0.21605691356155665
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.11      0.10      0.10      1745
+         expression       0.02      0.04      0.02       722
+    phosphorylation       0.06      0.30      0.10      1024
+           compound       0.02      0.03      0.02       694
+         activation       0.36      0.28      0.32      7342
+        no_relation       0.33      0.15      0.20      6143
+binding/association       0.06      0.06      0.06       458
+
+           accuracy                           0.19     18128
+          macro avg       0.14      0.13      0.12     18128
+       weighted avg       0.28      0.19      0.22     18128
+
+Validation Cross-Entropy Loss: 1.9335837960243225
+Epoch 2, Train Loss: 2.1710, Val F1 Score: 0.2161
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.10it/s]
+Weighted F1 Score: 0.2276221974831343
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.10      0.08      0.09      1745
+         expression       0.02      0.04      0.03       722
+    phosphorylation       0.06      0.30      0.11      1024
+           compound       0.02      0.03      0.02       694
+         activation       0.36      0.30      0.33      7342
+        no_relation       0.34      0.17      0.23      6143
+binding/association       0.09      0.06      0.07       458
+
+           accuracy                           0.21     18128
+          macro avg       0.14      0.14      0.12     18128
+       weighted avg       0.28      0.21      0.23     18128
+
+Validation Cross-Entropy Loss: 1.917690310213301
+Epoch 3, Train Loss: 2.1283, Val F1 Score: 0.2276
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  8.11it/s]
+Weighted F1 Score: 0.23961399771982514
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.11      0.08      0.09      1745
+         expression       0.02      0.04      0.03       722
+    phosphorylation       0.07      0.27      0.11      1024
+           compound       0.01      0.03      0.02       694
+         activation       0.37      0.33      0.35      7342
+        no_relation       0.34      0.18      0.24      6143
+binding/association       0.11      0.06      0.07       458
+
+           accuracy                           0.22     18128
+          macro avg       0.15      0.14      0.13     18128
+       weighted avg       0.28      0.22      0.24     18128
+
+Validation Cross-Entropy Loss: 1.9029579427507188
+Epoch 4, Train Loss: 2.1022, Val F1 Score: 0.2396
+Training: 100%|██████████| 100/100 [01:14<00:00,  1.35it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  6.98it/s]
+Weighted F1 Score: 0.24990923776314275
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.11      0.08      0.09      1745
+         expression       0.02      0.03      0.03       722
+    phosphorylation       0.07      0.27      0.11      1024
+           compound       0.01      0.03      0.02       694
+         activation       0.38      0.34      0.36      7342
+        no_relation       0.34      0.21      0.26      6143
+binding/association       0.16      0.06      0.08       458
+
+           accuracy                           0.23     18128
+          macro avg       0.16      0.14      0.13     18128
+       weighted avg       0.29      0.23      0.25     18128
+
+Validation Cross-Entropy Loss: 1.889500035179986
+Epoch 5, Train Loss: 2.0664, Val F1 Score: 0.2499
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.35it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.61it/s]
+Weighted F1 Score: 0.2632672095938646
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.11      0.07      0.08      1745
+         expression       0.03      0.03      0.03       722
+    phosphorylation       0.06      0.21      0.10      1024
+           compound       0.02      0.04      0.03       694
+         activation       0.38      0.36      0.37      7342
+        no_relation       0.33      0.24      0.28      6143
+binding/association       0.19      0.05      0.08       458
+
+           accuracy                           0.25     18128
+          macro avg       0.16      0.14      0.14     18128
+       weighted avg       0.29      0.25      0.26     18128
+
+Validation Cross-Entropy Loss: 1.8769418332311842
+Epoch 6, Train Loss: 2.0386, Val F1 Score: 0.2633
+Training: 100%|██████████| 100/100 [01:12<00:00,  1.38it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  6.87it/s]
+Weighted F1 Score: 0.2764218180653071
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.13      0.07      0.09      1745
+         expression       0.02      0.02      0.02       722
+    phosphorylation       0.05      0.16      0.08      1024
+           compound       0.02      0.04      0.03       694
+         activation       0.40      0.37      0.38      7342
+        no_relation       0.34      0.28      0.31      6143
+binding/association       0.38      0.05      0.09       458
+
+           accuracy                           0.27     18128
+          macro avg       0.19      0.14      0.14     18128
+       weighted avg       0.30      0.27      0.28     18128
+
+Validation Cross-Entropy Loss: 1.865034970972273
+Epoch 7, Train Loss: 2.0147, Val F1 Score: 0.2764
+Training: 100%|██████████| 100/100 [01:14<00:00,  1.34it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  8.20it/s]
+Weighted F1 Score: 0.2827822917958271
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.13      0.07      0.09      1745
+         expression       0.03      0.02      0.02       722
+    phosphorylation       0.06      0.16      0.09      1024
+           compound       0.02      0.04      0.03       694
+         activation       0.40      0.37      0.38      7342
+        no_relation       0.34      0.31      0.32      6143
+binding/association       0.41      0.05      0.09       458
+
+           accuracy                           0.27     18128
+          macro avg       0.20      0.15      0.15     18128
+       weighted avg       0.30      0.27      0.28     18128
+
+Validation Cross-Entropy Loss: 1.8541052275233798
+Epoch 8, Train Loss: 1.9908, Val F1 Score: 0.2828
+Training: 100%|██████████| 100/100 [01:12<00:00,  1.38it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.58it/s]
+Weighted F1 Score: 0.2914256676171781
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.13      0.05      0.07      1745
+         expression       0.03      0.02      0.03       722
+    phosphorylation       0.06      0.15      0.09      1024
+           compound       0.02      0.04      0.03       694
+         activation       0.41      0.39      0.40      7342
+        no_relation       0.34      0.33      0.34      6143
+binding/association       0.38      0.04      0.07       458
+
+           accuracy                           0.29     18128
+          macro avg       0.20      0.15      0.15     18128
+       weighted avg       0.31      0.29      0.29     18128
+
+Validation Cross-Entropy Loss: 1.844141768084632
+Epoch 9, Train Loss: 1.9734, Val F1 Score: 0.2914
+Training: 100%|██████████| 100/100 [01:12<00:00,  1.37it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.11it/s]
+Weighted F1 Score: 0.2917723564773991
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.13      0.05      0.07      1745
+         expression       0.03      0.02      0.03       722
+    phosphorylation       0.05      0.12      0.07      1024
+           compound       0.03      0.05      0.03       694
+         activation       0.40      0.39      0.40      7342
+        no_relation       0.34      0.35      0.34      6143
+binding/association       0.57      0.04      0.07       458
+
+           accuracy                           0.29     18128
+          macro avg       0.22      0.14      0.14     18128
+       weighted avg       0.31      0.29      0.29     18128
+
+Validation Cross-Entropy Loss: 1.8347051209873624
+Epoch 10, Train Loss: 1.9554, Val F1 Score: 0.2918
+Training: 100%|██████████| 100/100 [01:12<00:00,  1.37it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  8.27it/s]
+Weighted F1 Score: 0.289639785902255
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.14      0.05      0.07      1745
+         expression       0.03      0.02      0.02       722
+    phosphorylation       0.04      0.09      0.06      1024
+           compound       0.03      0.06      0.04       694
+         activation       0.40      0.38      0.39      7342
+        no_relation       0.34      0.37      0.35      6143
+binding/association       0.17      0.00      0.00       458
+
+           accuracy                           0.29     18128
+          macro avg       0.16      0.14      0.13     18128
+       weighted avg       0.30      0.29      0.29     18128
+
+Validation Cross-Entropy Loss: 1.8259248402383592
+Epoch 11, Train Loss: 1.9374, Val F1 Score: 0.2896
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.38it/s]
+Weighted F1 Score: 0.29065473925022417
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.15      0.05      0.07      1745
+         expression       0.04      0.02      0.03       722
+    phosphorylation       0.05      0.09      0.06      1024
+           compound       0.03      0.06      0.04       694
+         activation       0.40      0.36      0.38      7342
+        no_relation       0.34      0.40      0.36      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.29     18128
+          macro avg       0.14      0.14      0.14     18128
+       weighted avg       0.29      0.29      0.29     18128
+
+Validation Cross-Entropy Loss: 1.8175907731056213
+Epoch 12, Train Loss: 1.9232, Val F1 Score: 0.2907
+Training: 100%|██████████| 100/100 [01:11<00:00,  1.39it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.23it/s]
+Weighted F1 Score: 0.29767504878462125
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.20      0.04      0.07      1745
+         expression       0.05      0.02      0.03       722
+    phosphorylation       0.05      0.09      0.06      1024
+           compound       0.03      0.05      0.04       694
+         activation       0.41      0.38      0.40      7342
+        no_relation       0.34      0.41      0.37      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.31     18128
+          macro avg       0.15      0.14      0.14     18128
+       weighted avg       0.30      0.31      0.30     18128
+
+Validation Cross-Entropy Loss: 1.809961928261651
+Epoch 13, Train Loss: 1.9053, Val F1 Score: 0.2977
+Training: 100%|██████████| 100/100 [01:11<00:00,  1.40it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.62it/s]
+Weighted F1 Score: 0.3014178491889296
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.22      0.04      0.07      1745
+         expression       0.06      0.02      0.03       722
+    phosphorylation       0.05      0.08      0.06      1024
+           compound       0.04      0.06      0.05       694
+         activation       0.41      0.38      0.40      7342
+        no_relation       0.34      0.43      0.38      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.31     18128
+          macro avg       0.16      0.15      0.14     18128
+       weighted avg       0.31      0.31      0.30     18128
+
+Validation Cross-Entropy Loss: 1.8029685682720609
+Epoch 14, Train Loss: 1.8947, Val F1 Score: 0.3014
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.39it/s]
+Weighted F1 Score: 0.30067958367240116
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.22      0.04      0.07      1745
+         expression       0.06      0.02      0.03       722
+    phosphorylation       0.06      0.08      0.07      1024
+           compound       0.04      0.07      0.05       694
+         activation       0.41      0.38      0.39      7342
+        no_relation       0.33      0.44      0.38      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.31     18128
+          macro avg       0.16      0.15      0.14     18128
+       weighted avg       0.31      0.31      0.30     18128
+
+Validation Cross-Entropy Loss: 1.7964608536826239
+Epoch 15, Train Loss: 1.8751, Val F1 Score: 0.3007
+Training: 100%|██████████| 100/100 [01:12<00:00,  1.38it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.83it/s]
+Weighted F1 Score: 0.2995359287764135
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.27      0.04      0.06      1745
+         expression       0.04      0.01      0.02       722
+    phosphorylation       0.06      0.08      0.07      1024
+           compound       0.04      0.07      0.05       694
+         activation       0.41      0.36      0.39      7342
+        no_relation       0.33      0.46      0.39      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.31     18128
+          macro avg       0.16      0.15      0.14     18128
+       weighted avg       0.31      0.31      0.30     18128
+
+Validation Cross-Entropy Loss: 1.7905648284488254
+Epoch 16, Train Loss: 1.8702, Val F1 Score: 0.2995
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.20it/s]
+Weighted F1 Score: 0.3027601204916418
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.27      0.04      0.06      1745
+         expression       0.04      0.01      0.02       722
+    phosphorylation       0.06      0.08      0.07      1024
+           compound       0.04      0.08      0.05       694
+         activation       0.42      0.37      0.39      7342
+        no_relation       0.33      0.46      0.39      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.32     18128
+          macro avg       0.17      0.15      0.14     18128
+       weighted avg       0.31      0.32      0.30     18128
+
+Validation Cross-Entropy Loss: 1.784588979350196
+Epoch 17, Train Loss: 1.8578, Val F1 Score: 0.3028
+Training: 100%|██████████| 100/100 [01:14<00:00,  1.34it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.44it/s]
+Weighted F1 Score: 0.31105091911367944
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.37      0.04      0.07      1745
+         expression       0.04      0.01      0.02       722
+    phosphorylation       0.07      0.08      0.08      1024
+           compound       0.04      0.08      0.06       694
+         activation       0.43      0.37      0.40      7342
+        no_relation       0.34      0.49      0.40      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.33     18128
+          macro avg       0.18      0.15      0.15     18128
+       weighted avg       0.33      0.33      0.31     18128
+
+Validation Cross-Entropy Loss: 1.7793697251213922
+Epoch 18, Train Loss: 1.8510, Val F1 Score: 0.3111
+Training: 100%|██████████| 100/100 [01:14<00:00,  1.34it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.37it/s]
+Weighted F1 Score: 0.30796846821493756
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.39      0.03      0.06      1745
+         expression       0.04      0.01      0.02       722
+    phosphorylation       0.07      0.08      0.08      1024
+           compound       0.04      0.08      0.05       694
+         activation       0.43      0.36      0.39      7342
+        no_relation       0.34      0.50      0.40      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.33     18128
+          macro avg       0.19      0.15      0.14     18128
+       weighted avg       0.33      0.33      0.31     18128
+
+Validation Cross-Entropy Loss: 1.774438586499956
+Epoch 19, Train Loss: 1.8431, Val F1 Score: 0.3080
+Training: 100%|██████████| 100/100 [01:15<00:00,  1.32it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.31it/s]
+Weighted F1 Score: 0.30624121076700667
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.41      0.03      0.06      1745
+         expression       0.00      0.00      0.00       722
+    phosphorylation       0.09      0.08      0.08      1024
+           compound       0.05      0.08      0.06       694
+         activation       0.43      0.35      0.38      7342
+        no_relation       0.33      0.52      0.41      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.33     18128
+          macro avg       0.19      0.15      0.14     18128
+       weighted avg       0.33      0.33      0.31     18128
+
+Validation Cross-Entropy Loss: 1.7697667678197224
+Epoch 20, Train Loss: 1.8364, Val F1 Score: 0.3062
+Training: 100%|██████████| 100/100 [01:15<00:00,  1.33it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.27it/s]
+Weighted F1 Score: 0.31024110986768927
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.41      0.03      0.06      1745
+         expression       0.00      0.00      0.00       722
+    phosphorylation       0.09      0.08      0.09      1024
+           compound       0.05      0.08      0.06       694
+         activation       0.43      0.36      0.39      7342
+        no_relation       0.33      0.52      0.41      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.33     18128
+          macro avg       0.19      0.15      0.14     18128
+       weighted avg       0.34      0.33      0.31     18128
+
+Validation Cross-Entropy Loss: 1.7656165758768718
+Epoch 21, Train Loss: 1.8237, Val F1 Score: 0.3102
+Training: 100%|██████████| 100/100 [01:16<00:00,  1.31it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  7.71it/s]
+Weighted F1 Score: 0.3077051965379274
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.42      0.03      0.06      1745
+         expression       0.00      0.00      0.00       722
+    phosphorylation       0.09      0.08      0.09      1024
+           compound       0.05      0.08      0.06       694
+         activation       0.44      0.34      0.38      7342
+        no_relation       0.33      0.54      0.41      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.33     18128
+          macro avg       0.19      0.15      0.14     18128
+       weighted avg       0.34      0.33      0.31     18128
+
+Validation Cross-Entropy Loss: 1.761535988913642
+Epoch 22, Train Loss: 1.8226, Val F1 Score: 0.3077
+Training: 100%|██████████| 100/100 [01:13<00:00,  1.36it/s]
+Validating: 100%|██████████| 18/18 [00:02<00:00,  6.98it/s]Weighted F1 Score: 0.30795641648706834
+Classification Report:
+                     precision    recall  f1-score   support
+
+         inhibition       0.44      0.03      0.06      1745
+         expression       0.00      0.00      0.00       722
+    phosphorylation       0.03      0.02      0.02      1024
+           compound       0.05      0.08      0.06       694
+         activation       0.44      0.35      0.39      7342
+        no_relation       0.33      0.55      0.41      6143
+binding/association       0.00      0.00      0.00       458
+
+           accuracy                           0.34     18128
+          macro avg       0.18      0.15      0.14     18128
+       weighted avg       0.34      0.34      0.31     18128
+
+Validation Cross-Entropy Loss: 1.7577982544898987
+Epoch 23, Train Loss: 1.8146, Val F1 Score: 0.3080
+Early stopping triggered
+Best model saved.
+

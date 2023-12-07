@@ -1,0 +1,43 @@
+data preprocess:
+1. download all KGML file using KEGG API
+2. Parse KGML file
+3. Get rid of indirect effect, missing interaction, undefined entities.
+4. Divide training, val, test based on pathways 70%, 15%, 15%.
+5. Clean up unseen entity's relations in val and test.
+6. Constructing graph using networkX, multiDigraph.
+7. Construct similarity matrix based on Katz similarity.
+8. Clustering
+
+Why not spectral clustering:
+1. Optimal cluster number is always 2 (based on eigenmap and silhouette score.)
+2. Spectral clustering needs dense matrix.
+3. 
+
+
+Data Preparation:
+
+Convert your pathway data into a graph representation, where nodes represent molecules (genes, proteins, compounds) and edges represent interactions (relations, reactions).
+Ensure that the graph is properly weighted, if necessary, based on the type or strength of interactions.
+Similarity Matrix Construction:
+
+Construct a similarity matrix representing the similarity between every pair of nodes in the graph. This could be based on shared interaction patterns, shared pathways, or other biological data.
+The similarity matrix should capture the notion that molecules involved in the same pathways or with similar interaction partners are more similar.
+Spectral Clustering:
+
+Apply spectral clustering to the similarity matrix. This involves using eigenvalue decomposition to project the data into a lower-dimensional space where clustering is more straightforward.
+Determine the number of clusters (k) using domain knowledge or techniques like the eigengap heuristic.
+
+Analysis of Clusters:
+
+Analyze the resulting clusters to identify groups of molecules that are more interconnected or share similar properties.
+Investigate these clusters for potential new interactions or functional similarities.
+Validation:
+
+Validate the findings with existing biological knowledge. This could involve literature review, database searches, or experimental verification.
+Consider cross-referencing the clusters with known pathways, interaction databases, or gene ontology terms to assess their biological relevance.
+Iterative Refinement:
+
+Adjust the clustering process based on validation results. This might involve tuning parameters, incorporating more data, or trying different clustering algorithms.
+
+Consider other cluster techniques:
+Consider Alternative Clustering Algorithms: If spectral clustering does not yield informative results, consider other clustering algorithms like hierarchical clustering, DBSCAN, or HDBSCAN, which might be more suitable for your specific dataset.
